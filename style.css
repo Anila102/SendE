@@ -1,0 +1,833 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Karla";
+}
+
+
+/* Header */
+
+.nav-container {
+    height: 680px;
+    background: linear-gradient(109.77deg, #1A2873 0%, #0554F2 102.16%);
+    margin: auto auto;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding: 5px 50px;
+    overflow: hidden;
+}
+
+.logo {
+    margin-right: 80px
+}
+
+.navbar {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    padding: 5px auto;
+    width: 100%;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: flex-end;
+}
+
+button {
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul li {
+    color: white;
+    font-size: 20px;
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.nav-menu {
+    display: flex;
+    margin-top: 12px;
+    overflow: hidden;
+    z-index: 999;
+    justify-content: center;
+}
+
+.nav-class-item {
+    margin-right: 20px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+#nav-title {
+    margin-right: auto;
+    font-size: 22px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+    padding: 15px 25px;
+    font-family: "Karla";
+    text-decoration: none;
+    font-style: normal;
+}
+
+#signup {
+    width: 85px;
+    height: 30px;
+    background: #0DD965;
+    border-radius: 8px;
+    font-size: 22px;
+    padding: 10px 15px;
+}
+
+.auth-buttons {
+    margin-left: 80px;
+    font-size: 18px;
+    display: flex;
+    align-items: baseline;
+    margin-left: auto;
+    display: flex;
+}
+
+.auth-buttons li {
+    justify-content: center;
+}
+
+.auth-buttons a {
+    font-size: 18px;
+}
+
+.main-section {
+    width: 100%;
+}
+
+
+/* Main Secton  */
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    padding: 125px 0px 86px 125px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+
+.main-heading {
+    font-weight: 800;
+    font-size: 45px;
+    color: white;
+}
+
+.content {
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 22px;
+    color: white;
+    overflow: hidden;
+    width: 75%;
+}
+
+#try-btn {
+    margin-top: 30px;
+    text-align: center;
+    width: 111px;
+    font-size: 22px;
+    padding: 14px 30px;
+    background: #0DD965;
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+#try-btn a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.credit-line {
+    color: white;
+    margin-top: 35px;
+    font-weight: 400;
+    font-size: 22px;
+    font-style: italic;
+}
+
+
+/* Volume Container  */
+
+.volume-container {
+    margin: 60px auto;
+    padding: 10px;
+}
+
+.afford-head {
+    font-size: 32px;
+    padding: 2px 334px;
+    font-style: "bold";
+    font-weight: 800;
+    text-align: center;
+    overflow: hidden;
+    color: #111B21;
+}
+
+.platform-container {
+    margin: 0px auto;
+    padding: 10px;
+    background: #F5F5F5;
+    ;
+    width: 100%;
+    margin-top: 0;
+}
+
+.platform-head {
+    padding: 2px 286px;
+    font-size: 45px;
+    margin: auto;
+    font-style: "bold";
+    font-weight: 800;
+    text-align: center;
+    overflow: hidden;
+    color: #111B21;
+}
+
+.afford-text {
+    margin: auto;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    padding: 2px 161px;
+    color: #3C464C;
+}
+
+.platform-text {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin: 15px;
+    color: #3C464C;
+}
+
+tbody {
+    width: 100%;
+    border-radius: 30px;
+}
+
+table,
+tr {
+    font-style: bold;
+    /* border-radius: 25px; */
+    border-collapse: collapse;
+    overflow: hidden;
+    margin: 0;
+}
+
+table td {
+    padding: 25px;
+    border: 1px solid #D3D3D3;
+    background-color: white;
+}
+
+table th {
+    padding: 25px;
+    text-align: center;
+    /* border-radius: 25px; */
+    background-color: white;
+    border: 1px solid #D3D3D3;
+}
+
+.table {
+    margin: 10px auto;
+    margin-bottom: 16px;
+    vertical-align: top;
+    border: 1px solid #D3D3D3;
+    border-radius: 30px;
+    font-style: bold;
+    width: 85%;
+}
+
+.afford-table {
+    margin: 60px auto;
+    padding: 10px;
+}
+
+.marketing-container {
+    background: linear-gradient(289.57deg, #1A2873 0%, #0554F2 100%);
+    margin-top: 80px;
+    padding: 35px;
+}
+
+.marketing-content {
+    padding: 35px;
+}
+
+.contact {
+    width: 100%;
+    max-width: 100%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+
+.contact-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 20px auto;
+    height: 60px;
+}
+
+.contact-form input {
+    font-size: 18px;
+    padding: 10px;
+    color: #B7B7B7;
+    border: 2px solid #B7B7B7;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 312px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.contact-btn {
+    text-align: center;
+    width: 193px;
+    font-size: 22px;
+    padding: 25px 4px;
+    border-radius: 8px;
+    color: white;
+    height: 10px;
+    background: #0DD965;
+    border-radius: 8px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inbox-container {
+    margin: 60px auto;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+.inbox-head {
+    margin: auto;
+    font-size: 22px;
+    padding: 2px 127px;
+    font-weight: 800;
+    text-align: center;
+    overflow: hidden;
+    font-style: bold;
+    color: #111B21;
+}
+
+.inbox-text1 {
+    padding: 2px 100px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 15px;
+    color: #3C464C;
+}
+
+.inbox-text2 {
+    padding: 2px 100px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #3C464C;
+}
+
+.feature-table {
+    margin: 30px auto;
+    padding: 10px;
+}
+
+.platform-table {
+    margin: 60px auto;
+    padding: 10px;
+}
+
+.reviews-container {
+    margin: 60px auto;
+    padding: 10px;
+}
+
+.reviews-head {
+    font-size: 30px;
+    margin: auto;
+    font-style: "bold";
+    font-weight: 800;
+    text-align: center;
+    overflow: hidden;
+    color: #111B21;
+}
+
+.reviews-text {
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin: 15px;
+    color: #3C464C;
+}
+
+.card-container {
+    padding: 4px 22px;
+    background: #0554F2;
+    background-size: 75% auto;
+    display: flex;
+}
+
+.card {
+    overflow: hidden;
+    /* display: inline-block; */
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0 4px 4px rgba(164, 165, 167, 0.3);
+    padding: 16px;
+    margin: 20px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.column {
+    padding: 40px;
+}
+
+.column p {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.footer-container {
+    margin: 0px auto;
+    padding: 10px;
+}
+
+.social {
+    margin-right: 33px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social img {
+    margin: 0px 4 px;
+}
+
+.footer-row {
+    padding: 10px;
+}
+
+.footer-column {
+    padding: 24px;
+    display: inline-block;
+    margin-right: 2px;
+    width: 18%;
+}
+
+.footer-column li {
+    list-style: none;
+    margin-top: 18px;
+    font-size: large;
+}
+
+.footer-column h1 {
+    font-size: 22px;
+}
+
+.footer-description {
+    display: inline-block;
+    font-size: 22px;
+    width: 25%;
+    margin-right: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.star {
+    display: flex;
+    align-items: center;
+}
+
+.cookie-container {
+    display: flex;
+    margin: 18px;
+    width: 100%;
+}
+
+.rights-column {
+    width: 40%;
+}
+
+.cookies-column {
+    width: 59%;
+}
+
+.toggle {
+    display: none;
+}
+
+
+/* Media Queries  */
+
+
+/* Desktop Screens */
+
+@media only screen and (max-width: 1200px) and (min-width:1025px) {
+    .toggle {
+        display: none;
+    }
+    .card {
+        width: 28%;
+        display: inline-block;
+    }
+    .platform-head {
+        font-size: 43px;
+        ;
+    }
+    .inbox-head {
+        font-size: 30px;
+    }
+    .afford-head {
+        font-size: 30px;
+    }
+    .afford-text {
+        font-size: 22px;
+    }
+    .reviews-head {
+        font-size: 20px;
+    }
+    .contact h3 {
+        font-size: 40px;
+    }
+    .footer-description {
+        width: 17%;
+    }
+}
+
+
+/* Laptop Screens  */
+
+@media only screen and (max-width: 1024px) and (min-width:769px) {
+    .toggle {
+        display: none;
+    }
+    .nav-class-item {
+        font-size: 16px;
+        margin-right: 0;
+    }
+    header li {
+        padding: 15px 15px;
+    }
+    .hero-container {
+        width: auto;
+    }
+    .afford-head {
+        font-size: 25px;
+        padding: 2px 115px;
+    }
+    .afford-text {
+        padding: 2px 17px;
+        font-size: 20px;
+    }
+    .inbox-head {
+        font-size: 18px;
+        padding: 2px 118px;
+    }
+    .inbox-text1 {
+        padding: 2px 25px;
+        font-size: 19px;
+    }
+    .inbox-text2 {
+        padding: 2px 25px;
+        font-size: 19px;
+    }
+    .platform-head {
+        padding: 2px 90px;
+        font-size: 34px;
+    }
+    .reviews-head {
+        padding-top: 18px;
+        font-size: 20px;
+    }
+    .card-container {
+        margin: auto;
+    }
+    .column {
+        padding: 20px;
+    }
+    .card {
+        display: inline-block;
+        width: 40%;
+    }
+    .contact h3 {
+        font-size: 25px;
+    }
+    .footer-column {
+        width: 12%;
+    }
+}
+
+
+/* Tablets */
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
+    .nav {
+        position: absolute;
+    }
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .nav-menu li a {
+        display: block;
+        padding: 15px 5px;
+    }
+    .toggle {
+        order: 1;
+        font-size: 20px;
+    }
+    .nav {
+        background-color: #3C464C;
+    }
+    .auth-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        order: 2;
+    }
+    #signup {
+        display: flex;
+        align-items: center;
+    }
+    header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-class-item {
+        color: white;
+        order: 3;
+        width: 50%;
+        text-align: center;
+        display: none;
+    }
+    .active .nav-class-item {
+        display: block;
+    }
+    .afford-head {
+        font-size: 27px;
+        padding: 2px 17px;
+    }
+    .afford-text {
+        padding: 2px 10px;
+        font-size: 18px;
+    }
+    .inbox-head {
+        font-size: 18px;
+        padding: 2px 70px;
+    }
+    .inbox-text1 {
+        padding: 2px 25px;
+        font-size: 19px;
+    }
+    .inbox-text2 {
+        padding: 2px 0px;
+        font-size: 18px;
+    }
+    .platform-head {
+        padding: 2px 130px;
+        font-size: 28px;
+    }
+    .feature-table {
+        margin: 40px auto;
+    }
+    .card-container {
+        padding: 4px 16px;
+    }
+    .card {
+        width: 40%;
+    }
+    .reviews-head {
+        font-size: 18px;
+    }
+    .contact h3 {
+        font-size: 25px;
+        margin: 4px auto;
+    }
+    .contact-form input {
+        max-width: 270px;
+    }
+    .contact-btn {
+        height: 10px;
+        width: 147px;
+        font-size: 18px;
+    }
+    .footer-description {
+        display: block;
+        justify-content: center;
+    }
+    .footer-column {
+        width: 36%;
+    }
+}
+
+
+/* Mobile Screens */
+
+@media only screen and (max-width: 480px) and (min-width: 320px) {
+    .footer-description {
+        display: block;
+        justify-content: center;
+    }
+    .nav {
+        position: absolute;
+    }
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .nav-menu li a {
+        display: block;
+        padding: 15px 5px;
+    }
+    .toggle {
+        order: 1;
+        font-size: 20px;
+    }
+    .nav {
+        background-color: #3C464C;
+    }
+    .auth-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        order: 2;
+    }
+    #signup {
+        display: flex;
+        align-items: center;
+    }
+    header {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .nav-class-item {
+        color: white;
+        order: 3;
+        width: 50%;
+        text-align: center;
+        display: none;
+    }
+    .active .nav-class-item {
+        display: block;
+    }
+    .hero-container {
+        width: 25%;
+    }
+    .afford-head {
+        font-size: 24px;
+        padding: 2px 17px;
+    }
+    .afford-text {
+        padding: 2px 10px;
+        font-size: 18px;
+    }
+    .inbox-head {
+        font-size: 16px;
+        padding: 2px 20px;
+    }
+    .inbox-text1 {
+        padding: 2px 25px;
+        font-size: 19px;
+    }
+    .inbox-text2 {
+        padding: 2px 0px;
+        font-size: 18px;
+    }
+    .platform-head {
+        padding: 2px 50px;
+        font-size: 28px;
+    }
+    .feature-table {
+        margin: 40px auto;
+    }
+    .card-container {
+        padding: 4px 16px;
+    }
+    .card {
+        width: 75%;
+    }
+    .reviews-head {
+        font-size: 18px;
+    }
+    .contact h3 {
+        font-size: 22px;
+        margin: 0px auto;
+    }
+    .contact-form {
+        height: 50px;
+    }
+    .contact-form input {
+        max-width: 270px;
+        font-size: 15px;
+    }
+    .contact-btn {
+        height: 0px;
+        width: 142px;
+        font-size: 15px;
+    }
+    .footer-description {
+        width: 30%;
+    }
+    .footer-column {
+        width: 36%;
+    }
+    .credit-line {
+        font-size: 18px;
+    }
+}
